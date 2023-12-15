@@ -39,7 +39,7 @@ function PDFWebViewer() {
       }
     };
     loadWebViewer();
-  }, []);
+  }, [document]);
 
   return (
     <div className="App">
